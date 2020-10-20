@@ -1,3 +1,4 @@
+/* Especificidad =  001 */
 body{
 	display: grid;
 	grid-template-areas:
@@ -8,9 +9,11 @@ body{
 	grid-template-columns: 20% 1fr 15%;
 	grid-row-gap: 10px;
 }
+/* Especificidad =  001 */
 footer {
 	grid-area: footer;
 }
+/* Especificidad =  001 */
 main {
 	grid-area: main;
 }
@@ -18,16 +21,20 @@ main {
 #NavBar {
 	grid-area: nav;
 }
+/* Especificidad =  100 */
 #mainAside {
   grid-area: aside;
 }
+/* Especificidad =  100 */
 #pageHeader {
   grid-area: header;
 }
+/* Especificidad =  001 */
 header{
 	text-align: center;
 }
 
+/* Especificidad =  001 */
 header,
 footer,
 article,
