@@ -1,0 +1,96 @@
+body {
+    font: 400 15px Tahoma, sans-serif;
+    line-height: 1.8;
+    color: #981D3E;
+    background-color: #f6f6f6;
+	font-size: 15px;
+	min-height: 100%;
+	background-image:url('multimedia/costaSiciliana.jpg');
+	background-size: cover;
+  }  
+
+h1,h2 {
+      color: #981D3E;
+      text-transform: uppercase;
+      text-align: left;     
+  }  
+
+table,th, td{
+	border-collapse: collapse;
+	border: 1px solid black;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	
+}
+th{
+	background-color: #6a142b;
+	color: white;
+}
+aside figure{	
+	background-color: #881a37;
+	max-width: 300px;
+	margin: auto;
+	border-style: double;
+	border-color: black;
+	
+}
+aside img{
+	width: 100%;
+}
+aside figcaption{
+	padding-left:3px;
+	color:white;
+	text-align:center;
+	
+}
+
+main{
+	background: rgba(255,255,255,0.8);
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	padding-right: 8px;
+	
+}
+ul {
+  list-style-type: circle;
+  margin: 3px;
+}
+
+#NavBar {
+	background-color:#a23351;
+	font-size: 20px;
+	padding: 14px 16px;
+	color:white;
+}
+#NavBar ul{
+	/*overflow: hidden;*/
+	list-style-type: none;
+}
+/*
+#NavBar li a{
+	
+}
+*/
+/*
+#NavBar li a:hover{
+	background-color:#606060;
+}
+*/
+
+a{
+	color:white;
+	text-decoration: none;
+}
+a:hover, a:active{
+	text-decoration: underline;
+}
+footer{	
+	background-color:#555555;
+	color: #ffffff;
+	text-align: center; 
+	font-size: 16px;
+}

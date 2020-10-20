@@ -1,0 +1,37 @@
+body{
+	display: grid;
+	grid-template-areas:
+    "header header header"
+    "nav main aside"
+    "footer footer footer";
+	grid-template-rows: 20% 1fr 15%;
+	grid-template-columns: 20% 1fr 15%;
+	grid-row-gap: 10px;
+}
+footer {
+	grid-area: footer;
+}
+main {
+	grid-area: main;
+}
+/* specificity = 100 */
+#NavBar {
+	grid-area: nav;
+}
+#mainAside {
+  grid-area: aside;
+}
+#pageHeader {
+  grid-area: header;
+}
+header{
+	text-align: center;
+}
+
+header,
+footer,
+article,
+nav,
+aside {
+  margin: 10px;
+}
