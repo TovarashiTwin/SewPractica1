@@ -1,3 +1,4 @@
+/* Especificidad =  001 */
 body {
     font: 400 15px Tahoma, sans-serif;
     line-height: 1.8;
@@ -7,14 +8,14 @@ body {
 	min-height: 100%;
 	background-image:url('multimedia/costaSiciliana.jpg');
 	background-size: cover;
-  }  
-
+  }
+/* Especificidad =  001 */
 h1,h2 {
       color: #981D3E;
       text-transform: uppercase;
       text-align: left;     
-  }  
-
+ }
+/* Especificidad =  001 */
 table,th, td{
 	border-collapse: collapse;
 	border: 1px solid black;
@@ -25,10 +26,12 @@ table,th, td{
 	padding-right: 2px;
 	
 }
+/* Especificidad =  001 */
 th{
 	background-color: #6a142b;
 	color: white;
 }
+/* Especificidad =  002 */
 aside figure{	
 	background-color: #881a37;
 	max-width: 300px;
@@ -37,16 +40,18 @@ aside figure{
 	border-color: black;
 	
 }
+/* Especificidad =  002 */
 aside img{
 	width: 100%;
 }
+/* Especificidad =  001 */
 aside figcaption{
 	padding-left:3px;
 	color:white;
 	text-align:center;
 	
 }
-
+/* Especificidad =  001 */
 main{
 	background: rgba(255,255,255,0.8);
 	padding-top: 8px;
@@ -55,39 +60,37 @@ main{
 	padding-right: 8px;
 	
 }
+/* Especificidad =  001 */
 ul {
   list-style-type: circle;
   margin: 3px;
 }
-
+/* Especificidad =  100 */
 #NavBar {
-	background-color:#a23351;
+	background-color:white;
 	font-size: 20px;
 	padding: 14px 16px;
-	color:white;
+	color:#a23351;
 }
+/* Especificidad =  101 */
 #NavBar ul{
 	/*overflow: hidden;*/
 	list-style-type: none;
 }
-/*
+/* Especificidad =  102 */
 #NavBar li a{
-	
+	color:#a23351;
 }
-*/
-/*
-#NavBar li a:hover{
-	background-color:#606060;
-}
-*/
-
+/* Especificidad =  001 */
 a{
 	color:white;
 	text-decoration: none;
 }
+/* Especificidad =  011 */
 a:hover, a:active{
 	text-decoration: underline;
 }
+/* Especificidad =  001 */
 footer{	
 	background-color:#555555;
 	color: #ffffff;
